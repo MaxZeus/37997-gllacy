@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
+    <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
   	<header class="main-header">
@@ -10,9 +11,9 @@
   		<div class="main-logo"><img src="http://placehold.it/150x100" alt="логотип-barbershop"></div>
   		<nav main-navigation>
   			<ul>
-  				<li>Каталог</li>
-  				<li>Доставка и оплата</li>
-  				<li>О компании</li>
+  				<li><a href="">Каталог</a></li>
+  				<li><a href="">Доставка и оплата</a></li>
+  				<li><a href="">О компании</a></li>
   			</ul>
   			<div class="user-box">
   				<a href="#"></a>
@@ -25,6 +26,7 @@
   		<section class="gallery">
   			<div>
   				<img src="http://placehold.it/150x100">
+          <span class="order">Давайте оба!</span>
   			</div>
   		</section>
 
@@ -33,13 +35,13 @@
   				<img src="http://placehold.it/150x100">
   				<h2>Малина даром</h2>
   				<p>При покупке 2 кг любого фруктового мороженного,добавим в ваш заказ банку малинового варенья бесплатно.</p>
-  				<a href="#"><span>Хочу варенье!</span></a>
+  				<a class="order" href="#"><span>Хочу варенье!</span></a>
   			</div>
   			<div>
   				<img src="http://placehold.it/150x100">
   				<h2>Шоколадки даром!</h2>
   				<p>При покупке 2 кг пломбира,добавим в ваш заказ упаковку вкуснейшей шоколадной присыпи совершенно бесплатно.</p>
-  				<a href="#"><span>Хочу шоколадки!</span></a>
+  				<a class="order" href="#"><span>Хочу шоколадки!</span></a>
   			</div>
   		</section>
 
@@ -69,19 +71,15 @@
   		<section class="advantage">
   			<h2>Магазин Глейси - это онлайн и офлайн магазин про продаже мороженного собственного производства на развес</h2>
    			<div>
-   				<img src="http://placehold.it/150x100">
+   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+   			</div>
+   			<div>   				
    				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
    			</div>
    			<div>
-   				<img src="http://placehold.it/150x100">
    				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
    			</div>
    			<div>
-   				<img src="http://placehold.it/150x100">
-   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-   			</div>
-   			<div>
-   				<img src="http://placehold.it/150x100">
    				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
    			</div>
   		</section>
@@ -94,8 +92,9 @@
 
   		<section class="promo subscription">
   			<span>Подпишитесь на нашу сладкую рассылку.</span>
-  			<input type="text" placeholder="Электронная почта">
-  			<buttom type="submit" отправить>
+        <form>
+    			<input type="text" placeholder="Электронная почта">
+    			<buttom type="submit" отправить></form>
   		</section>
   		</div>
 
@@ -112,13 +111,14 @@
   						<a href="#"><img src="http://placehold.it/150x100"></a>
   						<a href="#"><img src="http://placehold.it/150x100"></a>
   					</div>
-  					<div class="filtr">
+  					<div class="references">
   						<a href="#">Для поставщиков</a>
   						<a href="#">О производстве</a>
   						<a href="#">Наши документы</a>
   						<a href="#">Экологические стандарты</a>
   					</div>
   					<div class="company">
+              <img src="http://placehold.it/150x100">
   						<span>Сделано в <a href="#">HTML Academy</a>2016</span>
   					</div>
   				</div>
