@@ -183,11 +183,13 @@ body{
 }
 
 .bonus-block-left{
-	background-image: url("../img/bonus.png");
+	background-image: url("../img/raspberries.png");
+	background-color:#6a021d;
 }
 
 .bonus-block-right{
-	background-image: url("../img/bonus.png");
+	background-image: url("../img/shokolate.png");
+	background-color:#62381f;
 }
 
 .products{
@@ -265,12 +267,45 @@ body{
 }
 
 
-.advantage p::before{
+.advantage-icon::before{
     content: "";
     width: 47px;
     height: 47px;
     position: absolute;
     background-image: url("../img/advantage-icon.svg");
+    left: 0;
+    top: -15px;
+}
+
+
+.advantage-cow::before{
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url("../img/advantage-cow.svg");
+    left: 0;
+    top: -15px;
+}
+
+
+.advantage-leaflet::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-image: url("../img/list.png");
+    left: 0;
+    top: -15px;
+}
+
+
+.advantage-termo::before{
+    content: "";
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    background-image: url("../img/termo.png");
     left: 0;
     top: -15px;
 }
