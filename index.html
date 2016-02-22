@@ -3,140 +3,169 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Глейси</title>
-    <link href="css/style.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-  	<div class="container">
-      <header class="main-header">
-  		<div class="main-logo"><img src="http://placehold.it/150x100" alt="логотип-barbershop"></div>
-  		<nav main-navigation>
-  			<ul>
-  				<li><a href="">Каталог</a></li>
-  				<li><a href="">Доставка и оплата</a></li>
-  				<li><a href="">О компании</a></li>
-  			</ul>
+
+  		<div class="light"><img src="img/light.png"></div>
+
+    <header class="main-header">
+  		<div class="container clearfix">
+	  		<nav class="main-navigation">
+	  			<ul>
+	  				<li class="main-logo"><a href="#"><img src="img/logo.png" alt="логотип"></a></li>
+	  				<li><a href="">Каталог</a></li>
+	  				<li><a href="">Доставка и оплата</a></li>
+	  				<li><a href="">О компании</a></li>
+	  			</ul>
+	  		</nav>
   			<div class="user-box">
-  				<a href="#"></a>
+  				<a href="#">icon</a>
   				<a href="#">Вход</a>
   				<a href="#">Пусто</a>
   			</div>
-  		</nav>
+  		</div>
     </header>
-  	
 
-  		<section class="gallery">
-  			<div>
-  				<img src="http://placehold.it/150x100">
-            <div class="switch">
-                <a href="#"></a>
-                <a href="#"></a>
-                <a href="#"></a>
-           </div>
-          <span class="order">Давайте оба!</span>
-  			</div>
-  		</section>
+	  		<section class="gallery container clearfix">
+	  				<div class="gallery-slide">
+		  				<img src="img/ice-cream.png">
+			            <div class="header-btn">
+			           		<h1>Крем-брюле и пломбир с малиновым джемом</h1>
+			          		<a class="order btn" href="#">Давайте оба!</a>
+			          	</div>
+		  			</div>
+		           <!--  <div class="switch">
+		                <a href="#">0</a>
+		                <a href="#">0</a>
+		                <a href="#">0</a>
+		           </div> -->
+	  		</section>
+		
 
-  		<section class="bonus">
-  			<div>
-  				<img src="http://placehold.it/150x100">
-  				<h2>Малина даром</h2>
-  				<p>При покупке 2 кг любого фруктового мороженного,добавим в ваш заказ банку малинового варенья бесплатно.</p>
-  				<a class="order" href="#">Хочу варенье!</a>
-  			</div>
-  			<div>
-  				<img src="http://placehold.it/150x100">
-  				<h2>Шоколадки даром!</h2>
-  				<p>При покупке 2 кг пломбира,добавим в ваш заказ упаковку вкуснейшей шоколадной присыпи совершенно бесплатно.</p>
-  				<a class="order" href="#"><span>Хочу шоколадки!</span></a>
-  			</div>
-  		</section>
+			<div class="container clearfix">
+		  		<div class="bonus">
+	  			<div class="bonus-block bonus-block-left">
+	  				<h2>Малинка даром!</h2>
+	  				<p>При покупке 2 кг любого фруктового мороженного,добавим в ваш заказ банку малинового варенья бесплатно.</p>
+	  				<a class="btn" href="#">Хочу варенье!</a>
+	  			</div>
+	  			<div class="bonus-block bonus-block-right">
+	  				<h2>Шоколадки даром!</h2>
+	  				<p>При покупке 2 кг пломбира,добавим в ваш заказ упаковку вкуснейшей шоколадной присыпи совершенно бесплатно.</p>
+	  				<a class="btn" href="#">Хочу шоколадки!</a>
+		  			</div>
+		  		</div>
 
-  		<section class="products">
-  			<div>
-  				<img src="http://placehold.it/150x100">
-  				<span>310P/кг</span>
-  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-  			</div>
-  			<div>
-  				<img src="http://placehold.it/150x100">
-  				<span>310P/кг</span>
-  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-  			</div>
-  			<div>
-  				<img src="http://placehold.it/150x100">
-  				<span>310P/кг</span>
-  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-  			</div>
-  			<div>
-  				<img src="http://placehold.it/150x100">
-  				<span>310P/кг</span>
-  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p>
-  			</div>
-  		</section>
+	  		<section class="products">
+	  			<div>
+	  				<div class="products-img">
+	  				<img src="img/products.png">
+	  				<span>310P/кг</span>
+	  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p></div>
+	  			</div>
+	  			<div>
+	  				<div class="products-img">
+	  				<img src="img/products.png">
+	  				<span>310P/кг</span>
+	  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p></div>
+	  			</div>
+	  			<div>
+	  				<div class="products-img">
+	  				<img src="img/products.png">
+	  				<span>310P/кг</span>
+	  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p></div>
+	  			</div>
+	  			<div>
+	  				<div class="products-img">
+	  				<img src="img/products.png">
+	  				<span>310P/кг</span>
+	  				<p>Сливочное с апельсиновым джемом и цитрусовой стружкой</p></div>
+	  			</div>
+	  		</section>
+		</div>
 
-  		<section class="advantage">
-  			<h2>Магазин Глейси - это онлайн и офлайн магазин про продаже мороженного собственного производства на развес</h2>
-   			<div>
-   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-   			</div>
-   			<div>   				
-   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-   			</div>
-   			<div>
-   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-   			</div>
-   			<div>
-   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
-   			</div>
-  		</section>
-  		
-  		<section class="promo blog">
-  			<span>Новое в нашем блоге</span> 
-  			<a href="#">10 способов сервировки фруктовых шербетов
-  			к столу</a> 			
-  		</section>
+		<div class="container clearfix">
+	  		<section class="advantage">
+	  			<h2>Магазин Глейси - это онлайн и офлайн магазин про продаже мороженного собственного производства на развес</h2>
+	   			<div>
+	   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+	   			</div>
+	   			<div>   				
+	   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+	   			</div>
+	   			<div>
+	   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+	   			</div>
+	   			<div>
+	   				<p>Все наше мороженое изготавлеваеться на собственном производстве, с использованием современного оборудования и проверенных временем технологий.</p>
+	   			</div>
+	  		</section>
+  		</div>
 
-  		<section class="promo subscription">
-  			<p>Подпишитесь на нашу сладкую рассылку.</p>
-        <form>
-    			<input type="text" placeholder="Электронная почта">
-    			<buttom type="submit">отправить</buttom></form>
-  		</section>
-  		
+  		<div class="container clearfix">
+  			<div class="promo">
+		  		<section class="promo-blog">
+		  			<div class="promo-blog-process">
+			  			<span>Новое в нашем блоге</span> 
+			  			<a href="#">10 способов сервировки фруктовых шербетов
+			  			к столу</a> 
+		  			</div>			
+		  		</section>
+
+		  		<section class="promo-subscription-form">
+		  			<div class="promo-subscription">
+			  			<p>Подпишитесь на нашу сладкую рассылку
+						и будете всегда в курсе всего самого вкусного, что у нас происходит. Обещаем не спамить и не слать всякой не нужной ерунды. Честно =)</p>
+			        <form>
+		    			<input type="text" placeholder="Электронная почта">
+		    			<buttom class="btn" type="submit">Отправить</buttom>
+			    	</form>
+			    	</div>
+		  		</section>
+	  		</div>
+ 		</div>
+
 
   		<section class="map">
-  			<img src="http://placehold.it/150x100">
-        <div>
-          <p>Адрес главного офиса и офлайн магазина:</p>
-          <b>ул. Большая Конюшенная</b></br>
-          <b>19/8, Санкт-Петербург</b>
-          <p>Для заказов по тедефону:</p>
-          <b>8 812 450-25-25</b>
-          <p>(c 10 до 20 ежедевно)</p>
-          <a href="#"></a>
-        </div>
+	  			<img src="img/map.jpg">
+	        <div>
+	          <p>Адрес главного офиса и</br>
+	          офлайн магазина:</p>
+	          <b>ул. Большая Конюшенная</br>
+	          19/8, Санкт-Петербург</b></br></br>
+	          <p>Для заказов по тедефону:</p>
+	          <b>8 812 450-25-25</b>
+	          <p>(c 10 до 20 ежедевно)</p>
+	          <a  class="btn" href="#">Форма обратной связи</a>
+	        </div>
   		</section>
 
+		<div class="container clearfix">
+			<footer>
+				<div class="social">
+					<a href=""><img src="img/footer-tv.png" alt=""></a>
+					<a href=""><img src="img/footer-tv.png" alt=""></a>
+					<a href=""><img src="img/footer-tv.png" alt=""></a>
+					<a href=""><img src="img/footer-tv.png" alt=""></a>
+				</div>
+				<div class="references">
+					<ul class="references-left">
+						<li><a href="#">Для поставщиков</a></li>
+						<li><a href="#">О производстве</a></li>
+					</ul>
+					<ul class="references-right">
+						<li><a href="#">Наши документы</a></li>
+						<li><a href="#">Экологические стандарты</a></li>
+					</ul>
+				</div>
+				<div class="company">
+      				<img src="img/footer-logo.svg" alt="">
+					<p>Сделано в <a href="#">HTML Academy</a> &#169; 2016</p>
+				</div>
+			</footer>
+		</div>
   		
-  			<footer>
-  				<div class="container">
-  					<div class="social">
-  					</div>
-  					<div class="references">
-  						<a href="#">Для поставщиков</a>
-  						<a href="#">О производстве</a>
-  						<a href="#">Наши документы</a>
-  						<a href="#">Экологические стандарты</a>
-  					</div>
-  					<div class="company">
-              <img src="http://placehold.it/150x100">
-  						<span>Сделано в <a href="#">HTML Academy</a>2016</span>
-  					</div>
-  				</div>
-  			</footer>
-      
-  		
- 
-
   </body>
 </html>

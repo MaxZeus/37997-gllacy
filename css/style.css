@@ -1,0 +1,467 @@
+body{
+	background:#91ad9d;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.btn{
+	display: inline-block;
+	background: linear-gradient(to top, #f26843, #e74b36);
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 25px;
+	padding: 13px 20px;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.container{
+	width: 860px;
+	margin: 0 auto;
+}
+
+.main-header{
+	margin:0;
+	padding: 0;
+}
+
+
+.main-navigation{
+	width: 560px;
+	float: left;
+}
+
+.main-navigation ul{
+	margin: 0;
+    padding: 0;
+    list-style:none;
+    font-size: 0;
+}
+
+.main-navigation li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.main-navigation a{
+	display: block;
+	color: #fff;
+	padding-right:25px ;
+}
+
+.main-navigation li,.user-box a{
+	 margin: 30px 0px;
+}
+
+.main-navigation li:first-child{
+	margin: 9px 0;
+}
+
+.user-box{
+	widows: 300px;
+	float: right;
+}
+
+
+.user-box a{
+	display: inline-block;
+	padding: 5px;
+	background: #aac1b5;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	border-radius: 20px;
+}
+
+
+
+.light{
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -9999;
+	width: 100%;
+}
+
+.light img{
+	width: 100%;
+}
+
+.gallery{
+	margin-bottom: 30px;
+}
+
+.gallery-slide{
+    position: relative;
+    padding-top: 310px;
+}
+
+
+.gallery-slide img{
+	position: absolute;
+	left: 50%;
+	transform:translateX(-50%);
+	z-index: -99;
+	top: 0;
+}
+
+.header-btn{
+	width: 705px;
+    margin: 0 auto;
+}
+
+.header-btn h1{
+    margin: 0;
+    padding: 0;
+    font-size: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    margin-bottom: 40px;
+
+}
+
+.order{
+    display: block;
+    font-size: 31px;
+    margin: 0 auto;
+    width: 203px;
+    text-align: center;
+    padding: 13px 30px;
+    border-radius: 40px;
+}
+
+.bonus{
+	margin-bottom: 40px;
+}
+
+.bonus-block{
+	display: inline-block;
+	width: 420px;
+	margin-right: 15px;
+	border-radius: 15px;
+
+}
+
+.bonus-block:last-child{
+	margin-right: 0;
+}
+
+.bonus-block h2{
+	font-size: 35px;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px 0 22px 20px;
+}
+
+.bonus-block p{
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 20px;
+    padding: 0 0 20px 20px;
+    margin: 0;
+}
+
+.bonus-block a{
+    padding: 12px 20px;
+    font-size: 18px;
+    float: right;
+    margin-bottom: 15px;
+    margin-right: 20px;
+}
+
+.bonus-block-left{
+	background-image: url("../img/bonus.png");
+}
+
+.bonus-block-right{
+	background-image: url("../img/bonus.png");
+}
+
+.products{
+	font-size: 0;
+}
+
+.products div{
+	width: 200px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.products div:last-child{
+	margin-right: 0;
+}
+
+.products div::before{
+	content: "";
+	width: 61px;
+	height: 61px;
+	position: absolute;
+	background-image: url("../img/prod-before.png");
+}
+
+.products-img{
+	position: relative;
+}
+
+.products span{
+	font-size: 45px;
+    color: #ffffff;
+    position: absolute;
+    bottom: 105px;
+    left: 0;
+}
+
+.products p{
+	margin-right: 0;
+	padding: 0;
+	color: #ffffff;
+	font-size: 16px;
+	line-height: 22px;
+	text-decoration:underline;
+	text-align: center;
+}
+
+.advantage{
+	background-image: url("../img/advantage-bk.jpg");
+	border-radius: 16px;
+	padding: 30px 20px 0 20px;
+	margin-bottom: 40px;
+}
+
+.advantage h2{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	line-height: 30px;
+	margin-bottom:40px;
+}
+
+.advantage div{
+	width: 395px;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 35px;
+}
+
+.advantage p{
+	margin: 0;
+	width: 345px;
+	margin-left: 55px;
+	line-height: 22px;
+	
+}
+
+
+.advantage p::before{
+    content: "";
+    width: 47px;
+    height: 47px;
+    position: absolute;
+    background-image: url("../img/advantage-icon.svg");
+    left: 0;
+    top: -15px;
+}
+
+.promo{
+	margin-bottom: 40px;
+}
+
+.promo-blog{
+	background-image: url("../img/promo-blog.png");
+	width: 420px;
+	display: inline-block;
+	margin-right: 15px;
+	vertical-align: top;
+
+}
+
+.promo-blog-process{
+	padding: 30px 20px;
+	margin-bottom: 41px;
+}
+
+.promo-blog span{
+	font-size: 16px;
+	color: #5a5a5a;
+	margin-bottom: 15px;
+	display: inline-block;
+
+}
+
+.promo-blog a{
+	display: block;
+	font-size: 24px;
+	color: #353535;
+	width: 300px;
+}
+
+.promo-subscription-form{
+	display: inline-block;
+	background: #f8f7f4;
+	width: 420px;
+	border-radius: 10px;
+}
+
+.promo-subscription{
+	padding: 35px 20px;
+}
+
+.promo-subscription p{
+	margin: 0;
+	font-size: 16px;
+	line-height: 22px;
+	color: #5a5a5a;
+	margin-bottom: 20px;
+
+}
+
+.promo-subscription input{
+    padding: 11px 10px;
+    font-size: 16px;
+    border-radius: 7px;
+    border: 1px solid #d3d3d2;
+    width: 205px;
+    margin-bottom: 4px;
+}
+
+.promo-subscription buttom{
+    margin-left: 10px;
+}
+
+
+.map{
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.map div{
+	position: absolute;
+	top: 65px;
+    right: 320px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 35px 25px;
+}
+
+.map div p{
+	font-size: 14px;
+	margin: 0;
+	color: #343434;
+	line-height: 20px;
+}
+
+.map div b{
+	font-size: 18px;
+	color: #343434;
+	font-weight: bold;
+	line-height: 24px;
+}
+
+
+.map img{
+	display: block;
+	margin: 0 auto;
+}
+
+.map::before{
+	content: "";
+	background-image: url("../img/ice-before.png");
+    width: 218px;
+    height: 140px;
+    position: absolute;
+    top: 140px;
+    left: 480px;
+}
+
+.map a{
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+footer{
+	margin-bottom: 40px;
+	font-size: 0;
+}
+
+.social{
+	display: inline-block;
+	width: 200px;
+	margin-right: 20px;
+}
+
+.social a{
+	display: inline-block;
+	margin-right: 10px;
+
+}
+
+.social img{
+	width: 33px;
+	height: 32px;
+	border:1px solid #c2cec7;
+	border-radius: 20px;
+}
+
+.references{
+	display: inline-block;
+	width: 420px;
+	margin-right: 20px;
+	vertical-align: top;
+}
+
+.references ul{
+	margin: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+.references li{
+	margin-bottom: 10px;
+}
+
+.references a{
+	color: #ffffff;
+	font-size: 13px;
+}
+
+.company{
+	display: inline-block;
+	width: 200px;
+	color: #fefefe;
+	vertical-align: top;
+}
+
+.company img{
+	padding-left: 10px;
+	width: 108px;
+	height: 37px;
+	margin-bottom: 10px;
+}
+
+.company p{
+	padding-left: 10px;
+	margin: 0;
+	font-size: 12px;
+	color: #fefefe;
+}
+
+.company a{
+	color: #fefefe;
+}
